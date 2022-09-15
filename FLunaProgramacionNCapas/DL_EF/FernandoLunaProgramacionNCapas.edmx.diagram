@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="10c44026430649b0a199bf51a55c1442" Name="Diagram1">
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Usuario" Width="1.5" PointX="3.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Rol" Width="1.5" PointX="1" PointY="2" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Usuario__IdRol__276EDEB3" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Area" Width="1.5" PointX="5.375" PointY="1.125" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Departamento" Width="1.5" PointX="7.625" PointY="1" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Producto" Width="1.5" PointX="9.875" PointY="0.5" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Proveedor" Width="1.5" PointX="9.875" PointY="3.75" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Departame__IdAre__3E52440B" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Producto__IdDepa__4AB81AF0" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Producto__IdProv__49C3F6B7" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Colonia" Width="1.5" PointX="7.5" PointY="7.125" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Direccion" Width="1.5" PointX="9.75" PointY="6.75" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Estado" Width="1.5" PointX="3" PointY="7.25" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Municipio" Width="1.5" PointX="5.25" PointY="7.25" />
+        <EntityTypeShape EntityType="FLunaProgramacionNCapasModel.Pai" Width="1.5" PointX="0.75" PointY="7.375" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Colonia__IdMunic__72C60C4A" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Direccion__IdCol__5EBF139D" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Direccion__IdUsu__5FB337D6" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Estado__IdPais__59063A47" />
+        <AssociationConnector Association="FLunaProgramacionNCapasModel.FK__Municipio__IdEst__59FA5E80" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
